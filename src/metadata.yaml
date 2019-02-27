@@ -1,0 +1,19 @@
+name: ceph-admin
+summary: ceph admin charm
+maintainer: rr-pdl <ryan.redman@peopledatalabs.com>
+series:
+  - bionic
+description: |
+    ceph admin charm
+tags:
+  - misc
+subordinate: false
+#provides:
+#  ceph-admin:
+#    interface: ceph-admin
+requires:
+  ceph-admin:
+    interface: ceph-admin
+#peers:
+#  peer-relation:
+#    interface: interface-name

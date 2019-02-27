@@ -1,0 +1,7 @@
+includes: 
+  - 'layer:basic'
+  - 'layer:apt'
+  - 'layer:status'
+  - 'layer:ceph-base'
+  - 'interface:ceph-admin'
+repo: 'https://github.com/peopledatalabs/ceph-admin'
