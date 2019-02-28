@@ -4,4 +4,3 @@
     caps mgr = "allow *"
     caps mon = "allow *"
     caps osd = "allow *"
-
